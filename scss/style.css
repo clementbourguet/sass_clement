@@ -1,0 +1,90 @@
+/*imports*/
+/*colors variables*/
+main {
+  display: grid;
+  grid-template-columns: 19% 2fr 1fr 1fr 20%;
+  grid-template-rows: 10% 45% 45% 5%;
+  margin-top: 50px;
+}
+
+.banner__covid {
+  background-color: #ebe2d7;
+  color: #7c925e;
+  text-align: center;
+  align-content: center;
+  font-size: 1.2em;
+  height: 30px;
+}
+
+h1 {
+  color: #7c925e;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 2em;
+  margin-left: 270px;
+  margin-top: 50px;
+}
+
+nav {
+  display: flex;
+  margin: 20px 250px;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.logos img {
+  height: 40px;
+  width: 40px;
+  margin: -10px;
+}
+
+a {
+  margin: 0px 20px;
+  color: #6d6d6d;
+}
+
+.line {
+  margin-top: 50px;
+  height: 5px;
+  background-color: #6d6d6d;
+}
+
+.autumn {
+  display: grid;
+  grid-row: 1/span 1;
+  grid-column: 2;
+}
+.autumn__pic {
+  display: flex;
+  width: 600px;
+  padding: 15px 0px 15px 15px;
+  margin-top: 25px;
+  z-index: 1;
+}
+.autumn__title {
+  color: #7c925e;
+  grid-row: 2;
+  margin-bottom: 30px;
+  position: absolute;
+  z-index: 1;
+}
+.autumn__text {
+  background-color: #ebe2d7;
+  color: #6d6d6d;
+  padding: 20px;
+  position: absolute;
+  z-index: 2;
+  grid-row: 3/span 3;
+  grid-column: 2/span 2;
+  width: 28%;
+  margin-top: 400px;
+}
+
+/*Reset CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Verdana;
+}/*# sourceMappingURL=style.css.map */

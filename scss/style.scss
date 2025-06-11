@@ -1,0 +1,17 @@
+/*imports*/
+@import './Utils/variables';
+@import './Pages/page1';
+@import './Pages/page2';
+@import './Utils/mixins';
+@import './Utils/fonctions';
+@import './Utils/extends';
+
+
+/*Reset CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Verdana;
+}
